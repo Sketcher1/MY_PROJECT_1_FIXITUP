@@ -160,3 +160,106 @@ td {
     border-bottom:
         1px solid #e5e7eb;
 }
+/* REPORT PAGE */
+
+.report-wrapper{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    min-height:100vh;
+
+    background:#f4f7fb;
+
+    padding:40px;
+}
+
+.report-card{
+
+    width:700px;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.1);
+}
+
+.report-card h1{
+
+    margin-bottom:10px;
+}
+
+.report-card p{
+
+    color:gray;
+
+    margin-bottom:25px;
+}
+
+.report-card form{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+}
+
+.report-card input,
+.report-card textarea,
+.report-card select{
+
+    padding:14px;
+
+    border:1px solid #ddd;
+
+    border-radius:10px;
+
+    font-size:15px;
+}
+
+.report-card textarea{
+
+    resize:none;
+}
+
+.report-card button{
+
+    margin-top:10px;
+
+    padding:15px;
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    transition:.3s;
+}
+
+.report-card button:hover{
+
+    background:#1d4ed8;
+}
+
+#statusMessage{
+
+    text-align:center;
+
+    font-weight:bold;
+
+    margin-top:10px;
+}
