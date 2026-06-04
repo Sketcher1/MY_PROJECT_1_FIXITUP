@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Report Issue</title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="report-wrapper">
+
+    <div class="report-card">
+
+        <h1>📢 Report a Civic Issue</h1>
+
+        <p>
+            Help improve your community by reporting public issues.
+        </p>
+
+        <form id="issueForm">
+
+            <label>
+                Category
+            </label>
+
+            <select id="category">
+
+                <option>Pothole</option>
+
+                <option>Garbage Dump</option>
+
+                <option>Broken Streetlight</option>
+
+                <option>Water Leakage</option>
+
+                <option>Drainage Problem</option>
+
+                <option>Illegal Dumping</option>
+
+                <option>Public Property Damage</option>
+
+                <option>Other</option>
+
+            </select>
+
+            <label>
+                Issue Title
+            </label>
+
+            <input
+                type="text"
+                id="title"
+                placeholder="Short title">
+
+            <label>
+                Description
+            </label>
+
+            <textarea
+                id="description"
+                rows="5"
+                placeholder="Describe the issue..."></textarea>
+
+            <label>
+                Location
+            </label>
+
+            <input
+                type="text"
+                id="location"
+                placeholder="Street / Area">
+
+            <label>
+                Priority
+            </label>
+
+            <select id="priority">
+
+                <option>Low</option>
+
+                <option>Medium</option>
+
+                <option>High</option>
+
+                <option>Emergency</option>
+
+            </select>
+
+            <label>
+                Upload Image
+            </label>
+
+            <input
+                type="file"
+                id="image">
+
+            <button type="submit">
+                Submit Report
+            </button>
+
+            <p id="statusMessage"></p>
+
+        </form>
+
+    </div>
+
+</div>
+
+<script src="js/report.js"></script>
+
+</body>
+
+</html>
